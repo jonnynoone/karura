@@ -1,0 +1,77 @@
+/* --------- COLORS --------- */
+/* Charcoal - rgb(27, 27, 27) */
+
+/* ---------- FONTS --------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+/* -------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(27, 27, 27);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* -------------------------------------- */
+/* REUSABLE */
+/* -------------------------------------- */
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* -------------------------------------- */
+/* HEADER */
+/* -------------------------------------- */
+header {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.logo {
+    float: left;
+    width: 190px;
+}
+
+.logo img {
+    display: block;
+}
+
+header nav {
+    float: left;
+    background-color: darkorange;
+}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    font-weight: 500;
+    vertical-align: middle;
+}
