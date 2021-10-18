@@ -44,17 +44,37 @@ ul {
     max-width: 1200px;
 }
 
+.btn {
+
+}
+
+.btn-alt {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 26px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    background-color: #000;
+    background-image: linear-gradient(61.97deg, rgba(255, 76, 59, 0.9) -2.84%, rgba(228, 12, 91, 0.9) 86.13%);
+    transition: background-color 0.2s;
+}
+
+.btn-alt:hover {
+    background-color: #fff;
+}
+
 /* -------------------------------------- */
 /* HEADER */
 /* -------------------------------------- */
 header {
-    padding: 25px 0;
+    padding: 20px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .logo {
     float: left;
     width: 190px;
+    padding: 5px;
 }
 
 .logo img {
@@ -62,16 +82,28 @@ header {
 }
 
 header nav {
+    float: right;
+}
+
+header nav ul {
     float: left;
-    background-color: darkorange;
 }
 
 header nav ul li {
     display: inline-block;
-    vertical-align: middle;
+    margin-right: 26px;
+    padding: 11px;
 }
 
 header nav ul li a {
     font-weight: 500;
+}
+
+header i.fas {
+    margin-left: 4px;
+}
+
+header .btn-alt {
+    float: left;
     vertical-align: middle;
 }
