@@ -1,8 +1,9 @@
-/* --------- COLORS --------- */
-/* Charcoal - rgb(27, 27, 27) */
+/* --------- COLORS ---------- */
+/* Charcoal -  rgb(27, 27, 27) */
+/* Red      - rgb(228, 12, 91) */
 
 /* ---------- FONTS --------- */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 
 /* -------------------------------------- */
@@ -16,9 +17,14 @@
 
 html {
     color: #fff;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(27, 27, 27);
+}
+
+section {
+    padding: 120px 0;
 }
 
 a {
@@ -28,6 +34,23 @@ a {
 
 ul {
     list-style: none;
+}
+
+h1 {
+    font-size: 240%;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 122%;
+}
+
+p {
+    font-size: 90%;
+    line-height: 160%;
+}
+
+strong {
+    font-size: 116%;
+    font-weight: 700;
 }
 
 /* -------------------------------------- */
@@ -45,23 +68,60 @@ ul {
 }
 
 .btn {
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 70%;
+    font-weight: 600;
+    padding: 18px 40px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin-right: 25px;
+    transition: color 0.2s, background-color 0.2s;
+}
 
+.btn-fixed {
+    width: 200px;
+}
+
+.btn-primary {
+    color: #E92B67;
+    background-color: #fff;
+    transition: color 0.2s, border 0.2s, background-color 0.2s;
 }
 
 .btn-alt {
-    font-size: 16px;
-    font-weight: 600;
     padding: 11px 26px;
-    border-radius: 6px;
-    text-transform: uppercase;
     background-color: #000;
     background-image: linear-gradient(61.97deg, rgba(255, 76, 59, 0.9) -2.84%, rgba(228, 12, 91, 0.9) 86.13%);
     transition: background-color 0.2s;
+    margin-right: 0;
 }
 
-.btn-alt:hover {
+.btn:hover,
+.btn:active {
+    color: #E92B67;
     background-color: #fff;
 }
+
+.btn-primary:hover,
+.btn-primary:active {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.btn-alt:hover,
+.btn-alt:active {
+    color: #fff;
+    background-color: #fff;
+}
+
+/* .hero-strong {
+    font-size: 116%;
+    font-weight: 700;
+} */
 
 /* -------------------------------------- */
 /* HEADER */
@@ -98,6 +158,12 @@ header nav ul li {
 
 header nav ul li a {
     font-weight: 500;
+    transition: color 0.2s;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+    color: rgb(228, 12, 91);
 }
 
 header i.fas {
@@ -107,4 +173,40 @@ header i.fas {
 header .btn-alt {
     float: left;
     vertical-align: middle;
+}
+
+/* -------------------------------------- */
+/* SECTION HERO */
+/* -------------------------------------- */
+.section-hero {
+    background-color: #FA4344;
+    background-image: linear-gradient(#FA4344, #E92B67);
+}
+
+.section-hero > .row {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+
+    display: flex;
+}
+
+.section-hero > .row div:first-child {
+    flex: 4;
+}
+
+.section-hero > .row div:last-child {
+    flex: 5;
+}
+
+.hero-content h1 {
+    margin-top: 50px;
+}
+
+.hero-content p {
+    max-width: 480px;
+    margin-bottom: 100px;
+}
+
+.hero-image img {
+    width: calc(100% + 60px);
 }

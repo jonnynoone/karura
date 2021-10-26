@@ -1,0 +1,29 @@
+<svg height="100%" viewBox="32 0 159 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M47.427 0L34.983 24.429l-2.717 5.309h5.947l2.717-5.31 6.497-12.747 6.5 12.748 2.718 5.309h5.946l-2.72-5.31L47.427 0z" fill="url(#karura-page-logo_svg__paint2_linear)"/>
+   <path d="M91.853 8.071c0-2.208-.892-4.205-2.338-5.692a7.97 7.97 0 00-5.65-2.335H65.093v29.738H70.4v-13.68h5.308c1.91 0 3.568 1.018 4.5 2.55l.127.256 2.847 5.565 2.717 5.31h5.947l-2.717-5.31-4.248-8.454a7.128 7.128 0 002.293-.636 8.062 8.062 0 004.679-7.312zm-6.883 2.465a2.46 2.46 0 01-1.105.256l-13.462.041v-5.48h13.462c.934 0 1.573.424 1.911.766.297.298.807.978.807 1.955a2.69 2.69 0 01-1.614 2.462z" fill="url(#karura-page-logo_svg__paint3_linear)"/>
+   <path d="M120.563 14.867c0 5.268-4.29 9.559-9.556 9.559-5.267 0-9.557-4.29-9.557-9.559V0h-5.307v14.867c0 8.198 6.668 14.868 14.864 14.868 8.195 0 14.864-6.67 14.864-14.868V0h-5.308v14.867z" fill="url(#karura-page-logo_svg__paint4_linear)"/>
+   <path d="M156.835 8.071c0-2.208-.892-4.205-2.338-5.692a7.962 7.962 0 00-5.649-2.335h-18.774v29.738h5.311v-13.68h5.308c1.911 0 3.568 1.018 4.501 2.55l.127.256 2.847 5.565 2.717 5.31h5.947l-2.717-5.31-4.249-8.454a7.128 7.128 0 002.294-.636 8.06 8.06 0 004.675-7.312zm-6.88 2.465c-.338.17-.721.256-1.104.256l-13.466.041v-5.48h13.463c.933 0 1.572.424 1.91.766.298.298.807.978.807 1.955a2.692 2.692 0 01-1.61 2.462z" fill="url(#karura-page-logo_svg__paint5_linear)"/>
+   <path d="M187.077 24.429L174.633 0l-12.447 24.429-2.717 5.309h5.947l2.717-5.31 6.5-12.747 6.497 12.748 2.718 5.309h5.947l-2.718-5.31z" fill="url(#karura-page-logo_svg__paint6_linear)"/>
+   <defs>
+      <linearGradient id="karura-page-logo_svg__paint2_linear" x1="77.837" y1="19.457" x2="55.237" y2="-7.508" gradientUnits="userSpaceOnUse">
+         <stop stop-color="#E40C5B"></stop>
+         <stop offset="1" stop-color="#FF4C3B"></stop>
+      </linearGradient>
+      <linearGradient id="karura-page-logo_svg__paint3_linear" x1="105.306" y1="19.501" x2="82.383" y2="-4.633" gradientUnits="userSpaceOnUse">
+         <stop stop-color="#E40C5B"></stop>
+         <stop offset="1" stop-color="#FF4C3B"></stop>
+      </linearGradient>
+      <linearGradient id="karura-page-logo_svg__paint4_linear" x1="140.816" y1="19.455" x2="118.144" y2="-7.065" gradientUnits="userSpaceOnUse">
+         <stop stop-color="#E40C5B"></stop>
+         <stop offset="1" stop-color="#FF4C3B"></stop>
+      </linearGradient>
+      <linearGradient id="karura-page-logo_svg__paint5_linear" x1="170.289" y1="19.501" x2="147.366" y2="-4.633" gradientUnits="userSpaceOnUse">
+         <stop stop-color="#E40C5B"></stop>
+         <stop offset="1" stop-color="#FF4C3B"></stop>
+      </linearGradient>
+      <linearGradient id="karura-page-logo_svg__paint6_linear" x1="205.04" y1="19.457" x2="182.44" y2="-7.508" gradientUnits="userSpaceOnUse">
+         <stop stop-color="#E40C5B"></stop>
+         <stop offset="1" stop-color="#FF4C3B"></stop>
+      </linearGradient>
+   </defs>
+</svg>
